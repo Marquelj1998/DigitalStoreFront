@@ -1,0 +1,55 @@
+body {
+  background-image: url("images/background.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+    background-position: center;
+}
+
+h1, h2, p, ul{
+  color: white;
+  text-shadow:
+    0 0 5px cyan,
+    0 0 10px cyan,
+    0 0 20px cyan;
+}
+
+p {
+  border: 5px solid lightgray;
+  border-radius: 10px;
+}
+
+body {
+  display: grid;
+  place-items: center; 
+  height: 100vh;
+  margin: 0;
+}
+
+p, h2 {
+  font-size: 24px; /* 24 pixels */
+}
+
+.parent-element {
+  position: relative;
+
+}
+.child-element {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 80px;
+  background: rgb(228, 228, 228);
+ /* 
+  48 pixels */
+}
+
